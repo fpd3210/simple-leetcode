@@ -52,6 +52,7 @@
 - [二叉树的最大深度-MaxDepth](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
 - [从前序与中序遍历序列构造二叉树-BuildTree](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 - [验证二叉搜索树-IsValidBST](https://leetcode-cn.com/problems/validate-binary-search-tree/)
+- [对称二叉树-IsSymmetric](https://leetcode-cn.com/problems/symmetric-tree/)
 ## 图
 
 
