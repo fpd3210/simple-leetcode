@@ -1,7 +1,7 @@
 package com.dpf.tree;
 
 /**
- * 验证二叉搜索树
+ * 验证二叉搜索树:中序遍历有序
  * @Author Pikachues
  * @Date 2021/12/14
  */

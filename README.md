@@ -54,6 +54,8 @@
 - [验证二叉搜索树-IsValidBST](https://leetcode-cn.com/problems/validate-binary-search-tree/)
 - [对称二叉树-IsSymmetric](https://leetcode-cn.com/problems/symmetric-tree/)
 - [翻转二叉树-InvertTree](https://leetcode-cn.com/problems/invert-binary-tree/)
+- [平衡二叉树-IsBalanced](https://leetcode-cn.com/problems/balanced-binary-tree/)
+- [求根节点到叶节点数字之和](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/)
 ## 图
 
 
