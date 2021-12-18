@@ -1,4 +1,4 @@
->leetcode刷题记录
+>leetcode刷题记录。不要为了刷算法而刷算法，刷算法对于我们来说能提升的是思维。
 
 # toDo
 
@@ -57,6 +57,7 @@
 - [平衡二叉树-IsBalanced](https://leetcode-cn.com/problems/balanced-binary-tree/)
 - [求根节点到叶节点数字之和-SumNumbers](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/)
 - [二叉树展开为链表-Flatten](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/)
+- [合并二叉树-MergeTrees](https://leetcode-cn.com/problems/merge-two-binary-trees/)
 ## 图
 
 
