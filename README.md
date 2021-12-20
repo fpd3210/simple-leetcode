@@ -39,6 +39,7 @@
 - [两两交换链表中的节点-SwapPairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)
 - [相交链表-GetIntersectionNode](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
 ## 栈
+- [有效的括号-IsValid](https://leetcode-cn.com/problems/valid-parentheses/)
 
 ## 队列
 
