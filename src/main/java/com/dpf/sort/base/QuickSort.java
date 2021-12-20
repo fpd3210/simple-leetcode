@@ -19,7 +19,7 @@ public class QuickSort {
         for (int i = 0; i < testCount; i++) {
             int[] arr1 = SortTestUtil.generateRandomArray(maxSize,maxValue);
             int[] arr2 = SortTestUtil.copyArray(arr1);
-            newQuicklySort(arr1);
+            quickSort(arr1);
             SortTestUtil.comparator(arr2);
             if (!SortTestUtil.isEqual(arr1,arr2)){
                 succeed = false;
@@ -82,9 +82,9 @@ public class QuickSort {
             return;
         }
         // 得到基准元素位置
-        int pivotIndex = partition(arr,startIndex,endIndex);
-        quickSort(arr,startIndex,pivotIndex-1);
-        quickSort(arr,pivotIndex+1,endIndex);
+        int pivotIndex = partitionDouble(arr,startIndex,endIndex);
+        partitionDouble(arr,startIndex,pivotIndex-1);
+        partitionDouble(arr,pivotIndex+1,endIndex);
     }
 
     /**
@@ -121,12 +121,13 @@ public class QuickSort {
      * @param endIndex
      * @return
      */
+    // TODO: 2021/12/20 存在问题
     private static int partitionDouble(int[] arr,int startIndex,int endIndex){
         int pivotValue = arr[startIndex];
         int left = startIndex+1;
         int right = endIndex;
 
-        while (left!=right){
+        while (left<right){
             while (left<right&&arr[right]>pivotValue){
                 right--;
             }
@@ -171,7 +172,7 @@ public class QuickSort {
     private static int[] newPartition(int[] arr, int l, int r) {
         // 小于基准值左区间
         int less = l-1;
-        // 小于基准值右区间
+        // 大于基准值右区间
         int more = r;
         while (l<more){
             if(arr[l]<arr[r]){
