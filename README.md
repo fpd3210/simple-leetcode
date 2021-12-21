@@ -40,7 +40,8 @@
 - [相交链表-GetIntersectionNode](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
 ## 栈
 - [有效的括号-IsValid](https://leetcode-cn.com/problems/valid-parentheses/)
-
+- [最小栈-MinStacks](https://leetcode-cn.com/problems/min-stack/)
+- [字符串解码-DecodeString](https://leetcode-cn.com/problems/decode-string/)
 ## 队列
 
 ## 二叉树(tree)
