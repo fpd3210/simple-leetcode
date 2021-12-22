@@ -11,7 +11,7 @@ import java.util.LinkedList;
 public class QueueTest {
 
     public static void main(String[] args) {
-        testArray();
+        testLinked();
     }
 
     /**
@@ -22,11 +22,11 @@ public class QueueTest {
         Deque<Integer> deque = new LinkedList<>();  // 链表
 
         // 添加到 链表尾部
-        deque.offer(-1);
-        deque.add(0);
-        deque.addLast(1);
-        deque.addLast(2);
-        deque.addLast(3);
+        deque.offer(-1); // -1
+        deque.add(0); // -1,0
+        deque.addLast(1); // -1,0,1
+        deque.addLast(2); // -1,0,1,2
+        deque.addLast(3); // -1,0,1,2,3
         // 添加到链表头部
         deque.addFirst(-2); // -2,-1,0,1,2,3
 
