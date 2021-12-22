@@ -44,7 +44,7 @@
 - [字符串解码-DecodeString](https://leetcode-cn.com/problems/decode-string/)
 - [用两个队列模拟栈-MyStacks](https://leetcode-cn.com/problems/implement-stack-using-queues/)
 ## 队列
--[两个栈模拟队列-MyQueues](https://leetcode-cn.com/problems/implement-queue-using-stacks/)
+- [两个栈模拟队列-MyQueues](https://leetcode-cn.com/problems/implement-queue-using-stacks/)
 
 ## 二叉树(tree)
 - [前序遍利-PreorderTraversal](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
