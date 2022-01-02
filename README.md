@@ -71,6 +71,7 @@
 
 ## 设计(design) 
 - [LRU缓存机制-LRUCache](https://leetcode-cn.com/problems/lru-cache/)
+- [实现Trie(前缀树)-Trie](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)
 
 ## 大数
 
