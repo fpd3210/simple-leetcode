@@ -21,7 +21,8 @@
 ## 数组(array)
 - [多数元素-MajorityElement](https://leetcode-cn.com/problems/majority-element/)
 - [移动零-MoveZeroes](https://leetcode-cn.com/problems/move-zeroes/)
-- [删除有序数组中的重复项-]
+- [删除有序数组中的重复项-RemoveDuplicates](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
+- [删除有序数组中的重复项II-RemoveDuplicates2](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/)
 
 ## 字符串
 
