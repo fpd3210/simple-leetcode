@@ -68,7 +68,14 @@
 - [二叉树展开为链表-Flatten](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/)
 - [合并二叉树-MergeTrees](https://leetcode-cn.com/problems/merge-two-binary-trees/)
 - [路径总和III-PathSum3](https://leetcode-cn.com/problems/path-sum-iii/)
+
 ## 图
+
+## 动态规划(dp)
+- [斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/)
+- [第N个斐波那契数](https://leetcode-cn.com/problems/n-th-tribonacci-number/)
+- [爬楼梯](https://github.com/doocs/leetcode/blob/main/solution/0000-0099/0070.Climbing%20Stairs/README.md)
+- [使用最小花费爬楼梯-](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)
 
 
 ## 设计(design) 
