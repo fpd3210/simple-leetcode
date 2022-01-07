@@ -76,7 +76,8 @@
 - [第N个斐波那契数](https://leetcode-cn.com/problems/n-th-tribonacci-number/)
 - [爬楼梯](https://github.com/doocs/leetcode/blob/main/solution/0000-0099/0070.Climbing%20Stairs/README.md)
 - [使用最小花费爬楼梯-MinCostClimbingStairs](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)
-
+- [打家劫舍-Rob](https://leetcode-cn.com/problems/house-robber/)
+- [打家劫舍II-Rob2](https://leetcode-cn.com/problems/house-robber-ii/)
 
 ## 设计(design) 
 - [LRU缓存机制-LRUCache](https://leetcode-cn.com/problems/lru-cache/)
