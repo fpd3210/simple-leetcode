@@ -78,6 +78,7 @@
 - [使用最小花费爬楼梯-MinCostClimbingStairs](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)
 - [打家劫舍-Rob](https://leetcode-cn.com/problems/house-robber/)
 - [打家劫舍II-Rob2](https://leetcode-cn.com/problems/house-robber-ii/)
+- [删除并获得点数-DeleteAndEarn](https://leetcode-cn.com/problems/delete-and-earn/)
 
 ## 设计(design) 
 - [LRU缓存机制-LRUCache](https://leetcode-cn.com/problems/lru-cache/)
