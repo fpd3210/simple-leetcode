@@ -80,7 +80,7 @@
 - [打家劫舍II-Rob2](https://leetcode-cn.com/problems/house-robber-ii/)
 - [删除并获得点数-DeleteAndEarn](https://leetcode-cn.com/problems/delete-and-earn/)
 - [跳跃游戏-CanJump](https://leetcode-cn.com/problems/jump-game/)
-
+- [最大子数组和-MaxSubArray](https://leetcode-cn.com/problems/maximum-subarray/)
 ## 设计(design) 
 - [LRU缓存机制-LRUCache](https://leetcode-cn.com/problems/lru-cache/)
 - [实现Trie(前缀树)-Trie](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)
