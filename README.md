@@ -81,6 +81,9 @@
 - [删除并获得点数-DeleteAndEarn](https://leetcode-cn.com/problems/delete-and-earn/)
 - [跳跃游戏-CanJump](https://leetcode-cn.com/problems/jump-game/)
 - [最大子数组和-MaxSubArray](https://leetcode-cn.com/problems/maximum-subarray/)
+- [整数拆分-IntegerBreak](https://leetcode-cn.com/problems/integer-break/)
+- [最长回文子串-LongestPalindrome](https://leetcode-cn.com/problems/longest-palindromic-substring/)
+
 ## 设计(design) 
 - [LRU缓存机制-LRUCache](https://leetcode-cn.com/problems/lru-cache/)
 - [实现Trie(前缀树)-Trie](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)
