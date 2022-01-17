@@ -73,6 +73,9 @@
 - [全排列-Permute](https://leetcode-cn.com/problems/permutations/)
 - [岛屿数量-NumIslands](https://leetcode-cn.com/problems/number-of-islands/)
 
+## 广度优先遍历(bfs)
+- [岛屿数量-NumIslands](https://leetcode-cn.com/problems/number-of-islands/)
+
 ## 动态规划(dp)
 - [斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/)
 - [第N个斐波那契数](https://leetcode-cn.com/problems/n-th-tribonacci-number/)
