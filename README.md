@@ -69,7 +69,9 @@
 - [合并二叉树-MergeTrees](https://leetcode-cn.com/problems/merge-two-binary-trees/)
 - [路径总和III-PathSum3](https://leetcode-cn.com/problems/path-sum-iii/)
 
-## 图
+## 深度优先遍历(dfs)
+- [全排列-Permute](https://leetcode-cn.com/problems/permutations/)
+- [岛屿数量-NumIslands](https://leetcode-cn.com/problems/number-of-islands/)
 
 ## 动态规划(dp)
 - [斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/)
