@@ -98,8 +98,8 @@
 ## 大数(bignum)
 
 
-## 逻辑运算符
-
+## 位运算符(bitwise)
+- [只出现一次的位置-SingleNumber]
 
 
 
