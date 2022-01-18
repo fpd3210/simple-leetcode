@@ -72,6 +72,8 @@
 ## 深度优先遍历(dfs)
 - [全排列-Permute](https://leetcode-cn.com/problems/permutations/)
 - [岛屿数量-NumIslands](https://leetcode-cn.com/problems/number-of-islands/)
+- [子集-Subsets](https://leetcode-cn.com/problems/subsets/)
+
 
 ## 广度优先遍历(bfs)
 - [岛屿数量-NumIslands](https://leetcode-cn.com/problems/number-of-islands/)
