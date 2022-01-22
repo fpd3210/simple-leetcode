@@ -71,9 +71,12 @@
 
 ## 深度优先遍历(dfs)
 - [全排列-Permute](https://leetcode-cn.com/problems/permutations/)
+- [全排列II-PermuteUnique](https://leetcode-cn.com/problems/permutations-ii/)
 - [岛屿数量-NumIslands](https://leetcode-cn.com/problems/number-of-islands/)
 - [子集-Subsets](https://leetcode-cn.com/problems/subsets/)
-
+- [子集II](https://leetcode-cn.com/problems/subsets-ii/)
+- [组合总数-CombinationSum](https://leetcode-cn.com/problems/combination-sum/)
+- [组合总数II-CombinationSum2](https://leetcode-cn.com/problems/combination-sum-ii/)
 
 ## 广度优先遍历(bfs)
 - [岛屿数量-NumIslands](https://leetcode-cn.com/problems/number-of-islands/)
