@@ -19,6 +19,6 @@ public class BigIntegerTest {
         System.out.println("最小数："+bi2.min(bi1));
         BigInteger[] result = bi2.divideAndRemainder(bi1);
         System.out.println("商是：" + result[0] + "；余数是：" + result[1]) ;
-
+        System.out.println(bi1.compareTo(bi2));
     }
 }

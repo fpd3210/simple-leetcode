@@ -40,13 +40,15 @@
 - [回文链表-IsPalindrome](https://leetcode-cn.com/problems/palindrome-linked-list/)
 - [两两交换链表中的节点-SwapPairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)
 - [相交链表-GetIntersectionNode](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
-
+- [复杂链表的复制-CopyRandomList](https://leetcode-cn.com/problems/fu-za-lian-biao-de-fu-zhi-lcof/)
+- [二叉树与双向链表-TreeToDoublyList](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof/)
 ## 栈(stack)
 - [有效的括号-IsValid](https://leetcode-cn.com/problems/valid-parentheses/)
 - [最小栈-MinStacks](https://leetcode-cn.com/problems/min-stack/)
 - [字符串解码-DecodeString](https://leetcode-cn.com/problems/decode-string/)
 - [用两个队列模拟栈-MyStacks](https://leetcode-cn.com/problems/implement-stack-using-queues/)
 - [每日温度-Temperatures](https://leetcode-cn.com/problems/daily-temperatures/)
+- [栈的压入弹出序列-ValidateStackSequences](https://leetcode-cn.com/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof/)
 
 ## 队列(queue)
 - [两个栈模拟队列-MyQueues](https://leetcode-cn.com/problems/implement-queue-using-stacks/)
@@ -68,7 +70,8 @@
 - [二叉树展开为链表-Flatten](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/)
 - [合并二叉树-MergeTrees](https://leetcode-cn.com/problems/merge-two-binary-trees/)
 - [路径总和III-PathSum3](https://leetcode-cn.com/problems/path-sum-iii/)
-
+- [二叉搜索树的后序遍历序列-VerifyPostorder](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/)
+- [二叉树中和为某一路径-PathSum](https://leetcode-cn.com/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/)
 ## 深度优先遍历(dfs)
 - [全排列-Permute](https://leetcode-cn.com/problems/permutations/)
 - [全排列II-PermuteUnique](https://leetcode-cn.com/problems/permutations-ii/)
@@ -93,7 +96,8 @@
 - [最大子数组和-MaxSubArray](https://leetcode-cn.com/problems/maximum-subarray/)
 - [整数拆分-IntegerBreak](https://leetcode-cn.com/problems/integer-break/)
 - [最长回文子串-LongestPalindrome](https://leetcode-cn.com/problems/longest-palindromic-substring/)
-
+- [把数字翻译成字符串-TranslateNum](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/)
+- [礼物的最大值-MaxValue](https://leetcode-cn.com/problems/li-wu-de-zui-da-jie-zhi-lcof/)
 ## 设计(design) 
 - [LRU缓存机制-LRUCache](https://leetcode-cn.com/problems/lru-cache/)
 - [实现Trie(前缀树)-Trie](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)
@@ -103,7 +107,7 @@
 
 ## 位运算符(bitwise)
 - [只出现一次的位置-SingleNumber](https://leetcode-cn.com/problems/single-number/)
-
+- [数组中出现的次数II]
 
 
 
