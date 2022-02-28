@@ -1,5 +1,10 @@
 package com.dpf.test;
 
+import com.dpf.sort.base.SortTestUtil;
+
+import java.util.Arrays;
+import java.util.Random;
+
 /**
  * @author Pikachues
  * Created 2022/2/14
@@ -8,41 +13,58 @@ public class Sort {
 
     public static void main(String[] args) {
         Sort sort = new Sort();
-        int[] arr = {3,2,1,4,5};
-        sort.quickSort(arr);
-        for (int i = 0; i < arr.length; i++) {
-            System.out.println(arr[i]);
+        int testCount = 5000;
+        int maxSize = 100;
+        int maxValue = 100;
+        boolean succeed = true;
+        for (int i = 0; i < testCount; i++) {
+            int[] arr1 = SortTestUtil.generateRandomArray(maxSize, maxValue);
+            int[] arr2 = SortTestUtil.copyArray(arr1);
+            sort.mergeSort(arr1);
+            Arrays.sort(arr2);
+            if (!SortTestUtil.isEqual(arr1, arr2)) {
+                succeed = false;
+                SortTestUtil.printArray(arr1);
+                SortTestUtil.printArray(arr2);
+                break;
+            }
         }
+
+        System.out.println(succeed ? "Nice!" : "Failed");
     }
 
-    public void quickSort(int[] arr){
-        if(arr==null||arr.length==1){
+    public void mergeSort(int[] arr){
+        if(arr==null||arr.length<2){
             return;
         }
-        quickSort(arr,0,arr.length-1);
+        mergeSort(arr,0,arr.length-1);
     }
 
-    public void quickSort(int[] arr,int startIndex,int endIndex){
-        if(startIndex<endIndex){
-            int left = startIndex;
-            int right = endIndex;
-            int pivotValue = arr[startIndex];
-            int temp = arr[startIndex];
-            while (left<right){
-                while (left<right&&arr[right]>pivotValue){
-                    right--;
-                }
-                while (left<right&&arr[left]<=pivotValue){
-                    left++;
-                }
-                temp = arr[left];
-                arr[left] = arr[right];
-                arr[right] = temp;
-            }
-            arr[left] = pivotValue;
-            arr[startIndex] = temp;
-            quickSort(arr, startIndex, left-1);
-            quickSort(arr, left+1,endIndex);
+    public void mergeSort(int[] arr,int startIndex,int endIndex){
+       if(startIndex==endIndex){
+           return;
+       }
+        int mid = (startIndex+endIndex)/2;
+        mergeSort(arr,startIndex,mid);
+        mergeSort(arr,mid+1,endIndex);
+        merge(arr,startIndex,mid,endIndex);
+    }
+
+    public void merge(int[] arr,int startIndex,int mid,int endIndex){
+        int index = 0;
+        int[] help = new int[endIndex-startIndex+1];
+        int p1 = startIndex,p2=mid+1;
+        while (p1<=mid&&p2<=endIndex){
+            help[index++]=arr[p1]<arr[p2]?arr[p1++]:arr[p2++];
+        }
+        while (p1<=mid){
+            help[index++]=arr[p1++];
+        }
+        while (p2<=endIndex){
+            help[index++]=arr[p2++];
+        }
+        for (int i = 0; i < index; i++) {
+            arr[startIndex+i] = help[i];
         }
     }
 
