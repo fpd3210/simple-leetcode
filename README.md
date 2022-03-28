@@ -25,6 +25,9 @@
 - [删除有序数组中的重复项II-RemoveDuplicates2](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/)
 
 ## 字符串
+- [Z字形转换-Convert](https://leetcode-cn.com/problems/zigzag-conversion/)
+- [最长公共前缀-LongestCommonPrefix](https://leetcode-cn.com/problems/longest-common-prefix/)
+- [最长不含重复字符的子字符串-LengthOfLongestSubstring](https://leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/)
 
 ## 链表(linked)
 - [反转链表-Reverse](https://leetcode-cn.com/problems/reverse-linked-list/)
@@ -107,7 +110,7 @@
 
 ## 位运算符(bitwise)
 - [只出现一次的位置-SingleNumber](https://leetcode-cn.com/problems/single-number/)
-- [数组中出现的次数II]
+- [数组中出现的次数II-SingleNumber2](https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof/)
 
 
 

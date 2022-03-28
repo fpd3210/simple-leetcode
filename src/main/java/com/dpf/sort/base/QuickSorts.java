@@ -9,8 +9,8 @@ import java.util.*;
 public class QuickSorts {
 
     public static void main(String[] args) {
-        QuickSort3 quickSort1 = new QuickSort3();
-        int testCount = 5000;
+        QuickSort2 quickSort1 = new QuickSort2();
+        int testCount = 500000;
         int maxSize = 100;
         int maxValue = 100;
         boolean succeed = true;
@@ -129,28 +129,28 @@ public class QuickSorts {
 
         public void quickSort(int[] arr, int startIndex, int endIndex) {
             if (startIndex < endIndex) {
+                // 基准值
+                int pivot = arr[startIndex];
                 int left = startIndex;
                 int right = endIndex;
-                int pivotValue = arr[startIndex];
-                int temp = arr[startIndex];
-
-                while (left<right){
-                    while (left<right&&arr[right]>pivotValue){
+                while (left < right) {
+                    while (left < right && arr[right] > pivot) {
                         right--;
                     }
-                    while (left<right&&arr[left]<=pivotValue){
+                    while (left < right && arr[left] <= pivot) {
                         left++;
                     }
-                    temp = arr[left];
+                    int temp = arr[left];
                     arr[left] = arr[right];
                     arr[right] = temp;
                 }
-                arr[startIndex] = temp;
-                arr[left] = pivotValue;
+                arr[startIndex] = arr[left];
+                arr[left] = pivot;
 
-                quickSort(arr,startIndex,left-1);
-                quickSort(arr,left+1,endIndex);
+                quickSort(arr, startIndex, left - 1);
+                quickSort(arr, left + 1, endIndex);
             }
+
         }
     }
 
