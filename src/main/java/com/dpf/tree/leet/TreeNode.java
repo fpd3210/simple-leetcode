@@ -1,4 +1,4 @@
-package com.dpf.tree;
+package com.dpf.tree.leet;
 
 public class TreeNode {
     int val;

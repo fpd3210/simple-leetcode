@@ -1,4 +1,4 @@
-package com.dpf.tree;
+package com.dpf.tree.leet;
 
 import java.util.LinkedList;
 import java.util.Queue;

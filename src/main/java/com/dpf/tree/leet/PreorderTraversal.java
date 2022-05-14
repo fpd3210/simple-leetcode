@@ -1,4 +1,4 @@
-package com.dpf.tree;
+package com.dpf.tree.leet;
 
 import java.util.ArrayList;
 import java.util.Deque;

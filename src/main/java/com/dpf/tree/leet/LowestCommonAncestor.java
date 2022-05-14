@@ -1,4 +1,4 @@
-package com.dpf.tree;
+package com.dpf.tree.leet;
 
 /**
  * 二叉树的最近公共祖先

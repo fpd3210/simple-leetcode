@@ -1,8 +1,4 @@
-package com.dpf.tree;
-
-import java.util.Deque;
-import java.util.LinkedList;
-import java.util.List;
+package com.dpf.tree.leet;
 
 /**
  * 合并二叉树
@@ -11,7 +7,7 @@ import java.util.List;
  */
 public class MergeTrees {
     class Solution {
-        public TreeNode mergeTrees(TreeNode root1,TreeNode root2){
+        public TreeNode mergeTrees(TreeNode root1, TreeNode root2){
             if(root1==null&&root2==null){
                 return null;
             }

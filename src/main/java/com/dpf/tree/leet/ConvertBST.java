@@ -1,4 +1,4 @@
-package com.dpf.tree;
+package com.dpf.tree.leet;
 
 /**
  * 把二叉搜索树转换为累加树
