@@ -1,7 +1,9 @@
 package com.dpf.str.leet;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 
 /**
  * 最长不含重复字符的子字符串
@@ -14,6 +16,51 @@ public class LengthOfLongestSubstring {
         Solution solution = new Solution();
         System.out.println(solution.lengthOfLongestSubstring("aaa"));
     }
+
+    /**
+     * 滑动窗口
+     * @param s
+     * @return
+     */
+    public int lengthOfLongestSubstring(String s) {
+        Set<Character> set = new HashSet<>();
+        int right = -1;
+        int res = 0;
+        int len = s.length();
+        for(int i=0;i<len;i++){
+            if(i!=0){
+                set.remove(s.charAt(i-1));
+            }
+            while(right+1<len&&!set.contains(s.charAt(right+1))){
+                set.add(s.charAt(++right));
+            }
+            res = Math.max(res,right-i+1);
+        }
+        return res;
+    }
+
+    public int lengthOfLongestSubstring2(String s) {
+        Set<Character> set = new HashSet<>();
+        int right = -1;
+        int res = 0;
+        for (int i = 0; i < s.length(); i++) {
+
+            if (i != 0) {
+                set.remove(s.charAt(i - 1));
+            }
+
+            while (right + 1 < s.length() && !set.contains(s.charAt(right + 1))) {
+                set.add(s.charAt(i));
+                right++;
+            }
+
+            res = Math.max(res, right - i + 1);
+
+        }
+
+        return res;
+    }
+
 
     static class Solution {
         /**
